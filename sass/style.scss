@@ -1,6 +1,27 @@
 @import "compass/reset";
 @import "compass/css3";
 
-body {
-	font-size: 62.5%;
+.top {
+  height: 374px;
+  background-image: url(../images/top.jpg);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  float: left;
+}
+
+
+.top-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81, 154, 200, 0.3);
+}
+
+li {
+  display: inline;
+  float: right;
 }
