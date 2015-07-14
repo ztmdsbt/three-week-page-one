@@ -96,9 +96,13 @@ body li {
 /* line 30, ../sass/style.scss */
 .float-left {
   float: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .float-right {
   float: right;
+  margin-top: 20px;
+  margin-right: 20px;
 }

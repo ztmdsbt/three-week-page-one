@@ -21,7 +21,7 @@ body {
   height: 720px;
   background-color: rgba(53, 126, 189, 0.4);
 
-  .center{
+  .center {
     vertical-align: middle;
     align-content: center;
   }
@@ -29,8 +29,12 @@ body {
 
 .float-left {
   float: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .float-right {
   float: right;
+  margin-top: 20px;
+  margin-right: 20px;
 }
