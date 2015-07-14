@@ -66,39 +66,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/style.scss */
 body {
   font-family: Arial;
-  text-align: center;
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
 }
-/* line 10, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 body li {
   display: inline-block;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .mask {
-  background-size: cover;
-  background: url("../images/top.jpg") no-repeat;
+  background-color: #F4F3F1;
+  opacity: 0.8;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .top-container {
-  height: 720px;
-  background-color: rgba(53, 126, 189, 0.4);
-}
-/* line 24, ../sass/style.scss */
-.top-container .center {
-  vertical-align: middle;
-  align-content: center;
-}
-
-/* line 30, ../sass/style.scss */
-.float-left {
-  float: left;
-}
-
-/* line 34, ../sass/style.scss */
-.float-right {
-  float: right;
+  height: 750px;
+  background: url("../images/top.jpg") no-repeat;
+  background-size: cover;
 }
